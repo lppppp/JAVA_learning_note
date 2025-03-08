@@ -20,7 +20,7 @@ public class ArticleController {
     public ResponseEntity<Article> createArticle(@RequestParam Long userId,
                                                  @RequestParam String title,
                                                  @RequestParam String content) {
-        User user = new User(); // 假设从会话或认证中获取，此处简化
+        User user = new User(); // 假设从会话或认证中获取，此处简化逻辑
         user.setId(userId);
         return ResponseEntity.ok(articleService.createArticle(user, title, content));
     }
