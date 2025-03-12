@@ -7,7 +7,7 @@ public class HomeWork01 {
         System.out.println(a1.max(arr));
     }
 }
-
+//创建类
 class A01{
     public double max(double[] a){
         double m = 0;
