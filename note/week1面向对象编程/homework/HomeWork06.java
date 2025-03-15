@@ -16,6 +16,7 @@ interface Drawable{
 }
 
 class Circle implements Drawable{
+    //实现方法
     @Override
     public void draw(){
         System.out.println("Draw circle");
