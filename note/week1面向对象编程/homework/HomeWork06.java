@@ -10,6 +10,7 @@ public class HomeWork06 {
         d2.draw();
     }
 }
+
 //定义接口
 interface Drawable{
     void draw();//方法签名
