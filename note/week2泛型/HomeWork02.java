@@ -6,7 +6,7 @@
 在 main 方法中测试 StringToIntegerConverter 的功能。*/
 public class HomeWork02 {
     public static void main(String[] args){
-        StringToIntegerConverter s1 = new StringToIntegerConverter();
+        Converter<String,Integer> s1 = new StringToIntegerConverter();
         System.out.println(s1.convert("678"));
     }
 }
